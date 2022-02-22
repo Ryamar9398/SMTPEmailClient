@@ -77,7 +77,7 @@ def smtp_client(port=1025, mailserver='127.0.0.1'):
     recv6 = clientSocket.recv(1024).decode()
     if recv6[:3] != '250':
         pass
-    clientSocket.close()
+    #clientSocket.close()
     # Fill in end
 
 
